@@ -28,9 +28,10 @@ export const getDb = async () => {
   const textDb = await openDB('jate', 1); // get database
   const tx = textDb.transaction('jate', 'readonly'); // set text data to read only
   const store = tx.objectStore('jate'); // set store to object store of text
-  const request = store.getAll(); // get all data from the store
+  const request = store.get(1); // get all data from the store
   const result = await request;
   console.log("Text retrieved!")
+  console.log(result.value)
   return result;
 };
 
