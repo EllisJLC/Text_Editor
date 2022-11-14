@@ -31,6 +31,7 @@ export const getDb = async () => {
   const request = store.get(1); // get all data from the store
   const result = await request;
   console.log("Text retrieved!")
+  console.log(result.value)
   return result;
 };
 
