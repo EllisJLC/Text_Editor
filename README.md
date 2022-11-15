@@ -14,7 +14,9 @@ A basic text editor run with Progressive Web App.
 
 ## Installation 
 
-Clone the repository found at https://github.com/EllisJLC/Text_Editor. Navigate to the directory through the command `cd text_editor`. Run the command `npm install` to install the necessary node packages.
+1. Clone the repository found at https://github.com/EllisJLC/Text_Editor. 
+2. Navigate to the directory through the command `cd text_editor`. 
+3. Run the command `npm install` to install the necessary node packages.
 
 ## Usage
 
@@ -22,7 +24,9 @@ As a text editor in the browser.
 
 ## Test
 
-Run the program or open the live link at https://texteditor14152.herokuapp.com/. Input text. Select the "Install!" button to save code.
+1. Run the program or open the live link at https://texteditor14152.herokuapp.com/. 
+2. Input text. 
+3. Select the "Install!" button to save code.
 
 ## Images
 
@@ -32,7 +36,8 @@ Run the program or open the live link at https://texteditor14152.herokuapp.com/.
 
 ## Credits
 
-Starter code was created by Xandromus - https://github.com/Xandromus. PWA configuration by Jia Liang (Ellison) Chen - https://github.com/EllisJLC
+Starter code was created by Xandromus - https://github.com/Xandromus. 
+PWA configuration by Jia Liang (Ellison) Chen - https://github.com/EllisJLC
 
 ## Licenses 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
