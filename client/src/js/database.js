@@ -17,7 +17,7 @@ export const putDb = async (content) => {
   const textDb = await openDB('jate', 1); // set up text database
   const tx = textDb.transaction('jate', 'readwrite'); // set database to read/write
   const store = tx.objectStore('jate'); // create text object store
-  const request = store.add({ text: content }); // stores content of the request
+  const request = store.put({ text: content }); // stores content of the request
   const result = await request;
   console.log("Text saved!")
   return result
@@ -31,8 +31,8 @@ export const getDb = async () => {
   const request = store.get(1); // get all data from the store
   const result = await request;
   console.log("Text retrieved!")
-  console.log(result.value)
-  return result;
+  console.log(result)
+  return result.value;
 };
 
 initdb();
